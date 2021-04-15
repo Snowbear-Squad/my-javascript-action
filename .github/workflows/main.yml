@@ -7,7 +7,7 @@ jobs:
     steps:
     - name: Hello world action step
       id: hello
-      uses: Snowbear-Squad/my-javascript-action@v1
+      uses: Snowbear-Squad/my-javascript-action
       with:
         who-to-greet: 'World 🌍'
     # Use the output from the `hello` step
